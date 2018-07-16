@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>消息</title>
+		<link rel="stylesheet" type="text/css" href="css/init.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<script src="js/jquery-3.2.1.js"></script>
+		<script src="js/public.js"></script>
+		<script src="js/index.js"></script>
+		<style type="text/css">
+
+		</style>
+	</head>
+	<body>
+		<div id="container">
+			
+		
+		<!--头部-->
+		<div id="back_nav" class="fixd">
+		    <a href="javascript:history.back(-1);">
+		        <img src="images/back.png" alt="" class="back_btn">
+		    </a>
+		    <span class="title">消息中心</span>
+		</div>
+		<div class="tit">
+			<span class="nav active n1">系统消息</span>
+			<span class="nav n2">公告消息</span>
+		</div>
+		<div id="v1" style="display: block;">
+			<div class="items">
+				<ul class="news_box">
+				</ul>
+				 <script type="text/template" id="news_box">
+            		<li class="item" val = "@type">
+						<p class="title">@tit</p>
+						<p class="contont">@text</p>
+						<p class="time">@time</p>
+					</li>
+        		</script>
+			</div>
+		</div>
+		<div id="v2"  style="display: none;">
+			<div class="items">
+				<ul>
+					<li class="item2">
+						<p class="title">端午节快乐</p>
+						<p class="time">2018-06-12 20:58:08</p>
+						<p class="contont">您买跌得上的拉萨扩大了撒旦撒可能撒旦那是看见发射口径的撒娇看不到节哀顺变大家撒比大撒把的， 萨达</p>
+					</li>
+					
+				</ul>
+			</div>
+		</div>
+		
+	</div>
+	</body>
+</html>
